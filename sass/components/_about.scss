@@ -1,0 +1,29 @@
+.about-section {
+  padding-top: 10rem;
+  background: linear-gradient(to bottom, $color-primary 0%,#{fade-out($color-primary-light, .1)} 75%,#{fade-out($color-primary-light-1, .2)} 100%);
+  p {
+    margin-bottom: 5rem;
+  }
+}
+
+.about-heading {
+  @media (min-width: 992px) {
+    .about-heading-img {
+      position: relative;
+      z-index: 0;
+    }
+    .about-heading-content {
+      margin-top: -5rem;
+      position: relative;
+      z-index: 1;
+    }
+
+    .about-button {
+      width: 100%;
+      left: 35%;
+     
+      position: absolute;
+      bottom: -2rem;
+    }
+  }
+}

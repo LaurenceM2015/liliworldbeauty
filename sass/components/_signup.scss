@@ -1,0 +1,19 @@
+.signup-section {
+  padding: 10rem 0;
+  background: linear-gradient(to bottom, #{fade-out($black, .9)} 0%,#{fade-out($color-primary-light-1, .5)} 75%,$color-primary-light-2 100%), url('../img/bkg-salon-1.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  .card {
+    background-color: rgba($white, 0.8);
+    
+  }
+
+ 
+}
+
+.list-group-item{
+  padding: .35rem 1.25rem !important;
+
+}
