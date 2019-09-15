@@ -156,7 +156,7 @@ footer {
 
 .contact-section {
   padding: 5rem 0 0;
-  background-color: #F8C8F0; }
+  background-color: #D591C7; }
   .contact-section .card {
     border: 0;
     border-bottom: 0.25rem solid #C61387; }
@@ -296,7 +296,7 @@ form .row:first-child .floating-label-form-group {
 
 .signup-section {
   padding: 10rem 0;
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(213, 145, 199, 0.5) 75%, #F8C8F0 100%), url("../img/bkg-salon-1.jpg");
+  background: linear-gradient(to bottom, rgba(134, 0, 92, 0.9) 30%, rgba(251, 251, 251, 0.2) 70%, #D591C7 100%), url("../img/bkg-salon-1.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
