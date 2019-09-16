@@ -15,15 +15,60 @@ $black: #161616 !default;
 
 $white: #FBFBFB !default;
 $color-primary: #C61387 !default;
-$color-primary-light: #E771C4;
-$color-primary-light-1: #D591C7;
+
+$color-purple: #D307E3;
+
 $color-primary-light-2: #F8C8F0;
 
-$color-primary-dark: #86005C;;
-$color-primary-dark-1: #A8538A;
+$color-primary-dark: #4D0231;
+$color-primary-dark-1: #4D1839;
 
 
+/* Color Theme Swatches in Hex */
+$color-primary-1-hex: #F2059F;
+$color-primary-2-hex: #E70190;
+$color-primary-3-hex: #CE0585;
+$color-primary-4-hex: #B4077A;
+$color-primary-5-hex: #9B0770;
+
+/* Color Theme Swatches in RGBA */
+$color-primary-1-rgba: rgba(242,5,159, 1);
+$color-primary-2-rgba: rgba(231,1,144, 1);
+$color-primary-3-rgba: rgba(206,5,133, 1);
+$color-primary-4-rgba: rgba(180,7,122, 1);
+$color-primary-5-rgba: rgba(155,7,112, 1);
+
+/* Color Theme Swatches in HSLA */
+$color-primary-1-hsla: hsla(321, 95, 48, 1);
+$color-primary-2-hsla: hsla(322, 99, 45, 1);
+$color-primary-3-hsla: hsla(321, 95, 41, 1);
+$color-primary-4-hsla: hsla(320, 92, 36, 1);
+$color-primary-5-hsla: hsla(317, 91, 31, 1);
 
 
+// Color Secondary
+
+/* Color Theme Swatches in Hex */
+$color-secondary-1-hex: #A8538A;
+$color-secondary-2-hex: #B465A6;
+$color-secondary-3-hex: #C179A6;
+$color-secondary-4-hex: #C991BE;
+$color-secondary-5-hex: #FEFEFE;
+
+//$color-primary-light-1: #E771C4;
+
+/* Color Theme Swatches in RGBA */
+$color-secondary-1-rgba: rgba(168,83,138, 1);
+$color-secondary-2-rgba: rgba(180,101,166, 1);
+$color-secondary-3-rgba: rgba(193,121,166, 1);
+$color-secondary-4-rgba: rgba(201,145,190, 1);
+$color-secondary-5-rgba: rgba(254,254,254, 1);
+
+/* Color Theme Swatches in HSLA */
+$color-secondary-1-hsla: hsla(321, 33, 49, 1);
+$color-secondary-2-hsla: hsla(310, 34, 55, 1);
+$color-secondary-3-hsla: hsla(322, 36, 61, 1);
+$color-secondary-4-hsla: hsla(311, 34, 67, 1);
+$color-secondary-5-hsla: hsla(0, 0, 99, 1);
 
 

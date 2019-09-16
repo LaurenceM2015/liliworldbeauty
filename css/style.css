@@ -1,3 +1,9 @@
+/* Color Theme Swatches in Hex */
+/* Color Theme Swatches in RGBA */
+/* Color Theme Swatches in HSLA */
+/* Color Theme Swatches in Hex */
+/* Color Theme Swatches in RGBA */
+/* Color Theme Swatches in HSLA */
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -11,32 +17,32 @@ section {
   padding: 8rem 0; }
 
 a {
-  color: #C61387; }
+  color: #E70190; }
   a:focus, a:hover {
     text-decoration: none;
-    color: #690a48; }
+    color: #810151; }
 
 .bg-black {
   background-color: #161616 !important; }
 
 .bg-faded {
-  background-color: rgba(231, 113, 196, 0.85); }
+  background-color: rgba(231, 1, 144, 0.85); }
 
 .bg-faded-white {
   background-color: rgba(251, 251, 251, 0.85); }
 
 .table-striped {
-  background-color: rgba(231, 113, 196, 0.85); }
+  background-color: rgba(231, 1, 144, 0.85); }
 
 table th {
-  background-color: #86005C;
+  background-color: #4D0231;
   text-transform: uppercase; }
 
 table tr:nth-child(odd) {
   background-color: #F8C8F0; }
 
 table tr:nth-child(even) {
-  background-color: #E771C4; }
+  background-color: #F2059F; }
 
 .bg-primary {
   background-color: #C61387 !important; }
@@ -82,7 +88,7 @@ footer {
 
 .about-section {
   padding-top: 10rem;
-  background: linear-gradient(to bottom, #C61387 0%, rgba(231, 113, 196, 0.9) 75%, rgba(213, 145, 199, 0.8) 100%); }
+  background: linear-gradient(to bottom, #C61387 0%, rgba(168, 83, 138, 0.9) 75%, rgba(168, 83, 138, 0.8) 100%); }
   .about-section p {
     margin-bottom: 5rem; }
 
@@ -156,7 +162,7 @@ footer {
 
 .contact-section {
   padding: 5rem 0 0;
-  background-color: #D591C7; }
+  background-color: #C179A6; }
   .contact-section .card {
     border: 0;
     border-bottom: 0.25rem solid #C61387; }
@@ -213,20 +219,6 @@ footer {
 
 form .row:first-child .floating-label-form-group {
   border-top: 1px solid #e9ecef; }
-
-.social a {
-  text-align: center;
-  height: 3rem;
-  width: 3rem;
-  background-color: rgba(213, 145, 199, 0.2);
-  border-radius: 100%;
-  line-height: 3rem;
-  color: rgba(251, 251, 251, 0.3); }
-  .social a:hover {
-    color: #FBFBFB;
-    background-color: rgba(251, 251, 251, 0.3); }
-  .social a:active {
-    color: #F8C8F0; }
 
 .cta {
   padding-top: 5rem;
@@ -296,7 +288,7 @@ form .row:first-child .floating-label-form-group {
 
 .signup-section {
   padding: 10rem 0;
-  background: linear-gradient(to bottom, rgba(134, 0, 92, 0.9) 30%, rgba(251, 251, 251, 0.2) 70%, #D591C7 100%), url("../img/bkg-salon-1.jpg");
+  background: linear-gradient(to bottom, rgba(77, 2, 49, 0.6) 30%, rgba(251, 251, 251, 0.2) 70%, #C179A6 100%), url("../img/bkg-salon-1.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -306,6 +298,20 @@ form .row:first-child .floating-label-form-group {
 
 .list-group-item {
   padding: .35rem 1.25rem !important; }
+
+.social a {
+  text-align: center;
+  height: 3rem;
+  width: 3rem;
+  background-color: rgba(168, 83, 138, 0.9) !important;
+  border-radius: 100%;
+  line-height: 3rem;
+  color: #FBFBFB; }
+  .social a:hover {
+    background-color: #FBFBFB !important;
+    color: #F2059F; }
+  .social a:active {
+    color: #FBFBFB !important; }
 
 #mainNav {
   min-height: 56px;

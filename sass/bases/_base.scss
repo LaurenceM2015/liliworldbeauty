@@ -18,11 +18,11 @@
 
   
   a {
-    color: $color-primary;
+    color: $color-primary-2-hex;
     &:focus,
     &:hover {
       text-decoration: none;
-      color: darken($color-primary, 20%);
+      color: darken($color-primary-2-hex, 20%);
     }
   }
   
@@ -31,7 +31,7 @@
   }
 
   .bg-faded {
-    background-color: fade-out($color-primary-light, 0.15);
+    background-color: fade-out($color-primary-2-hex, 0.15);
   }
 
   .bg-faded-white {
@@ -40,7 +40,7 @@
   
 
   .table-striped{
-    background-color: fade-out($color-primary-light, 0.15);
+    background-color: fade-out($color-primary-2-hex, 0.15);
   }
 
   table{
@@ -55,7 +55,7 @@
         background-color: $color-primary-light-2;
       }
       &:nth-child(even){
-        background-color: $color-primary-light;
+        background-color: $color-primary-1-hex;
       }
     }
 
