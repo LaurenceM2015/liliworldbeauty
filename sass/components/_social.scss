@@ -1,0 +1,21 @@
+.social {
+    //margin-top: 5rem;
+    a {
+      text-align: center;
+      height: 3rem;
+      width: 3rem;
+      background-color: fade-out($color-secondary-1-hex, .1) !important;
+      border-radius: 100%;
+      line-height: 3rem;
+      //color: fade-out(green, 0.7) !important;
+      color: $white;
+      &:hover {
+       // color: fade-out(white, 0.1) !important;
+      background-color: $white !important;
+      color: $color-primary-1-hex;
+      }
+      &:active {
+        color:$white !important;
+      }
+    }
+  }

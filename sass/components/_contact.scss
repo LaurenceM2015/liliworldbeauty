@@ -1,6 +1,6 @@
 .contact-section {
   padding: 5rem 0 0;
-  background-color: $color-primary-light-1;
+  background-color: $color-secondary-3-hex;
   .card {
     border: 0;
     border-bottom: 0.25rem solid $color-primary;
@@ -80,23 +80,5 @@ form .row:first-child .floating-label-form-group {
 }
 
 
-.social {
-  
-  a {
-    text-align: center;
-    height: 3rem;
-    width: 3rem;
-    background-color: fade-out($color-primary-light-1, 0.8);
-    border-radius: 100%;
-    line-height: 3rem;
-    color: fade-out($white, 0.7);
-    &:hover {
-      color: $white;
-      background-color: fade-out($white, 0.7);
-    }
-    &:active {
-      color: $color-primary-light-2;
-    }
-  }
-}
+
 
