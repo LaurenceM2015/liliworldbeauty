@@ -106,21 +106,6 @@ footer {
     position: absolute;
     bottom: -2rem; } }
 
-@media (min-width: 992px) {
-  .product-item .product-item-title {
-    position: relative;
-    z-index: 1;
-    margin-bottom: -3rem; }
-  .product-item .product-item-img {
-    position: relative;
-    z-index: 0;
-    max-width: 60vw; }
-  .product-item .product-item-description {
-    position: relative;
-    z-index: 1;
-    margin-top: -3rem;
-    max-width: 50vw; } }
-
 .intro {
   position: relative; }
   @media (min-width: 992px) {
@@ -410,7 +395,10 @@ form .row:first-child .floating-label-form-group {
         max-width: 30rem;
         font-size: 1.25rem; } }
 
-.carousel-item {
+.carousel .carousel-indicators li {
+  background-color: #F2059F !important; }
+
+.carousel .carousel-item {
   height: 75vh;
   min-height: 35rem;
   background: no-repeat center center scroll;
@@ -419,5 +407,20 @@ form .row:first-child .floating-label-form-group {
   -o-background-size: cover;
   background-size: cover;
   height: 100vh; }
-  .carousel-item h3 {
+  .carousel .carousel-item h3 {
     color: #C61387; }
+
+@media (min-width: 992px) {
+  .composition-item .composition-item-title {
+    position: relative;
+    z-index: 1;
+    margin-bottom: -3rem; }
+  .composition-item .composition-item-img {
+    position: relative;
+    z-index: 0;
+    max-width: 60vw; }
+  .composition-item .composition-item-description {
+    position: relative;
+    z-index: 1;
+    margin-top: -3rem;
+    max-width: 40vw; } }

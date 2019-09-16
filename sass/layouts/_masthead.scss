@@ -43,20 +43,32 @@
   }
 }
 
+.carousel{
 
-.carousel-item {
-  height: 75vh;
-  min-height: 35rem;
- background: no-repeat center center scroll;
- //background-repeat: no-repeat;
- //background-position: bottom top;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  height: 100vh;
-
-  h3{
-    color: $color-primary;
+  .carousel-indicators{
+    li{
+      background-color: $color-primary-1-hex !important;
+    }
   }
+
+  .carousel-item {
+    height: 75vh;
+    min-height: 35rem;
+  background: no-repeat center center scroll;
+  //background-repeat: no-repeat;
+  //background-position: bottom top;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+
+    h3{
+      color: $color-primary;
+    }
+
+    
+  }
+
 }
+ 

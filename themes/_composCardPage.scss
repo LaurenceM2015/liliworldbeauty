@@ -1,0 +1,22 @@
+// COMPOSITION CARD PAGE
+
+.composition-item {
+    @media (min-width: 992px) {
+      .composition-item-title {
+        position: relative;
+        z-index: 1;
+        margin-bottom: -3rem;
+      }
+      .composition-item-img {
+        position: relative;
+        z-index: 0;
+        max-width: 60vw;
+      }
+      .composition-item-description {
+        position: relative;
+        z-index: 1;
+        margin-top: -3rem;
+        max-width: 40vw;
+      }
+    }
+}
